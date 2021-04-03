@@ -69,7 +69,7 @@ window.onload = function () {
       ppid: "marida-thijs",
       name: "Henri Jans",
       img: "assets/man.jpeg",
-      birth: "02-08-1984",
+      birth: "02-08-1928",
       death: "15-03-1984",
     },
     {
@@ -226,7 +226,8 @@ window.onload = function () {
       pid: "lutgarde-jans",
       name: "Henri Moermans",
       img: "assets/man.jpeg",
-      birth: "02-11-1943"
+      birth: "02-11-1943",
+      death: "13-11-2017"
     },
     {
       id: "marie-bert-moermans",
@@ -234,7 +235,8 @@ window.onload = function () {
       ppid: "henri-moermans",
       name: "Marie-Bert Moermans",
       img: "assets/woman.jpeg",
-      birth: "15-06-1966"
+      birth: "15-06-1966",
+      death: "13-07-2010"
     },
     {
       id: "jo-segers",
@@ -349,7 +351,8 @@ window.onload = function () {
       ppid: "marida-thijs",
       name: "Paul Jans",
       img: "assets/man.jpeg",
-      birth: "01-08-1947"
+      birth: "01-08-1947",
+      death: "01-03-2021"
     },
     {
       id: "?",
