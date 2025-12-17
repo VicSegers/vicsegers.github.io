@@ -1,17 +1,33 @@
 body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  margin: 0;
 }
 
-#container {
-  height: 200px;
-  display: flex;
-  align-items: flex-end;
+#map {
+  height: 100vh;
 }
 
-.bar {
-  width: 10px;
+.fa-marker i {
+  font-size: 20px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  text-align: center;
   background-color: black;
-  margin: 0 1px;
+  color: white;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
